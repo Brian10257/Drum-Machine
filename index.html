@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Drum Machine By Brian Ndikum</title>
+    
+</head>
+
+<body>
+    <div class="container" id="drum-machine">
+        <h1 class="text-center owner">Drum Machine By Brian Ndikum</h1>
+        <div class="card my-3">
+            <div class="card-body">
+                <div class="text-center" id="display">No Button Pressed Yet</div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-4">
+                <button class="drum-pad " onClick="play('Q')" id="drum-0">Q
+                    <audio src="./clip/clip0.mp3" class="clip" id="Q">
+                </button>
+            </div>
+            <div class="col-lg-4">
+                <button class="drum-pad " onClick="play('W')" id="drum-1">W
+                    <audio src="./clip/clip1.mp3" class="clip" id="W">
+                </button>
+            </div>
+            <div class="col-lg-4">
+                <button class="drum-pad " onClick="play('E')" id="drum-2">E
+                    <audio src="./clip/clip2.mp3" class="clip" id="E">
+                </button>
+            </div>
+            <div class="col-lg-4">
+                <button class="drum-pad " onClick="play('A')" id="drum-3">A
+                    <audio src="./clip/clip3.mp3" class="clip" id="A">
+                </button>
+            </div>
+            <div class="col-lg-4">
+                <button class="drum-pad " onClick="play('S')" id="drum-4">S
+                    <audio src="./clip/clip4.mp3" class="clip" id="S">
+                </button>
+            </div>
+            <div class="col-lg-4">
+                <button class="drum-pad " onClick="play('D')" id="drum-5">D
+                    <audio src="./clip/clip5.mp3" class="clip" id="D">
+                </button>
+            </div>
+            <div class="col-lg-4">
+                <button class="drum-pad " onClick="play('Z')" id="drum-6">Z
+                    <audio src="./clip/clip6.mp3" class="clip" id="Z">
+                </button>
+            </div>
+            <div class="col-lg-4">
+                <button class="drum-pad " onClick="play('X')" id="drum-7">X
+                    <audio src="./clip/clip7.mp3" class="clip" id="X">
+                </button>
+            </div>
+            <div class="col-lg-4">
+                <button class="drum-pad " onClick="play('C')" id="drum-8">C
+                    <audio src="./clip/clip8.mp3" class="clip" id="C">
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+        <script src="./js/index.js"></script>
+        <script src="./js/test-api.js"></script>
+</body>
+
+</html>
